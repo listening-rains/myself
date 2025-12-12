@@ -1,6 +1,6 @@
 --[[
 Cct与机械动力动力调速器。
-修改了部分内容，添加了一些适配。
+基于一下的内容修改了部分内容，添加了一些适配。
 【[CC]我的世界CC自动化控制程序部署教程】 https://www.bilibili.com/video/BV1W1421t7Ui/?share_source=copy_web&vd_source=7ef3320ed925f229df9b2dfaa1f0ee49
 改为了事件触发的方法，原本按照creat的手册，应力表会加载事件，但没有触发，自己添加一个添加事件的函数，291行 ,有问题可以修改
 
