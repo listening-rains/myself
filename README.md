@@ -1,4 +1,4 @@
-# mc.cctweak
+<img width="2560" height="1440" alt="应力表破坏后等待" src="https://github.com/user-attachments/assets/4dd9fac6-0551-4039-8d62-f523f1b230e8" /><img width="2560" height="1440" alt="2025-12-12_14 26 55" src="https://github.com/user-attachments/assets/38ea2441-bfb9-4b92-ba79-437cf04a4e9b" /># mc.cctweak
 -------------------------------
 stress_Adapt.lua说明：
 Cct与机械动力动力调速器。
@@ -26,3 +26,9 @@ Cct与机械动力动力调速器。
 恢复方法：
 通常应力足够会自动恢复，但注意应力表放置在输入位置。应力表如果在输出位置，会发生自锁，需要手动复位一下
 手动复位方法：1. 任意更新设备；比如断开外设连接、破坏应力表。  2. 手动调整转速；
+
+
+![Uploading 应力表破坏后等待.png…]
+(<img width="2560" height="1440" alt="模式2_波动调速" src="https://github.com/user-attachments/assets/aae6e44e-92bc-45b7-a903-816c6df9b66e" />
+<img width="2560" height="1440" alt="模式1_稳定调速" src="https://github.com/user-attachments/assets/123030cb-943d-4196-89bd-3fa0a6c7c5d3" />
+)
