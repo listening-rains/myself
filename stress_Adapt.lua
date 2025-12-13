@@ -101,10 +101,10 @@ local function getStableStress()
     local newStress = getStress(0)          -- 获取新应力
     setCurrentRotationSpeed(currentRotationSpeed) -- 还原转速
     spressForEachOnePRM = math.abs(newStress - currentStress)  --应力功率
-    print("spressForEachOnePRM: " .. tostring(spressForEachOnePRM))
+    --print("spressForEachOnePRM: " .. tostring(spressForEachOnePRM))
     stableStress = currentStress - (spressForEachOnePRM * currentRotationSpeed) -- 计算固定应力的应力值
-    print("currentStress: " .. tostring(currentStress))
-    print("Stable Stress: " .. tostring(stableStress))
+    --print("currentStress: " .. tostring(currentStress))
+    --print("Stable Stress: " .. tostring(stableStress))
     return stableStress
 end
 
